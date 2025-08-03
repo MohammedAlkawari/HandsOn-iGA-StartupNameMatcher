@@ -1,1 +1,4 @@
-// package.json placeholder
+"dependencies": {
+  "aws-cdk-lib": "^2.130.0",
+  "constructs": "^10.3.0"
+}
