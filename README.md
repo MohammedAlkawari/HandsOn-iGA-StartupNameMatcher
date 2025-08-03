@@ -48,7 +48,9 @@ Insert sample startup names into the DynamoDB table manually or by script, e.g.:
 - QuickShip
 - PayPilot
 
-## Frontend Usage
+## 🚀 Frontend Usage
 
-Open `frontend/index.html` in a browser (after updating the API Gateway URL) and test name matching interactively.
+After deployment, you will get a **CloudFront URL** to access the frontend.
+
+Open the `index.html` page through the **CloudFront link** (after updating the **API Gateway URL**) to test name matching interactively.
 
