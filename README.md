@@ -1,4 +1,4 @@
-# Startup Name Matcher
+# 📁 HandsOn Startup Name Matcher
 
 ## Overview
 This project is a simple AWS-based Startup Name Matcher exercise that:
