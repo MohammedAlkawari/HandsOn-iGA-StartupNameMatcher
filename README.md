@@ -54,3 +54,11 @@ After deployment, you will get a **CloudFront URL** to access the frontend.
 
 Open the `index.html` page through the **CloudFront link** (after updating the **API Gateway URL**) to test name matching interactively.
 
+
+
+
+# Keep it up team! 
+
+![GhostedvpnHackerCatGIF](https://github.com/user-attachments/assets/e0e66e11-fc25-4977-b96d-5c54e8e05aa4)
+
+
