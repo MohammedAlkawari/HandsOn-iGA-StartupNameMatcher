@@ -30,11 +30,6 @@ cdk bootstrap aws://{ACCOUNT_NAME}/{REGION} --cloudformation-execution-policies 
 cdk deploy --all --require-approval never
 ```
 
-### 3. Upload Frontend
-- Create an S3 bucket with static website hosting enabled
-- Upload `frontend/index.html` file
-- Access the website URL
-
 ## Test the API
 
 Send a POST request to the deployed API Gateway endpoint `/match` with JSON body:
