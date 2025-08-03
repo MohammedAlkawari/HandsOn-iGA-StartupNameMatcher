@@ -27,7 +27,7 @@ cdk bootstrap aws://{ACCOUNT_NAME}/{REGION} --cloudformation-execution-policies 
 
 ### 2. Deploy Stack
 ```bash
-cdk deploy
+cdk deploy --all
 ```
 
 ### 3. Upload Frontend (optional)
