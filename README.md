@@ -19,7 +19,6 @@ This project is a simple AWS-based Startup Name Matcher exercise that:
 - AWS CLI configured
 - AWS CDK installed (`npm install -g aws-cdk`)
 - Python 3.11+ installed
-- Docker (optional, for Lambda bundling)
 
 ### 1. Bootstrap CDK (one-time)
 ```bash
