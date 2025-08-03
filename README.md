@@ -22,7 +22,7 @@ This project is a simple AWS-based Startup Name Matcher exercise that:
 
 ### 1. Bootstrap CDK (one-time)
 ```bash
-cdk bootstrap
+cdk bootstrap aws://{ACCOUNT_NAME}/{REGION} --cloudformation-execution-policies "arn:aws:iam::{ACCOUNT_NAME}:policy/{IAM_POLICY_NAME}" --no-public-access-block-configuration --force 
 ```
 
 ### 2. Deploy Stack
