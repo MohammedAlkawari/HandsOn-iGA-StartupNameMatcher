@@ -11,7 +11,7 @@ This project is a simple AWS-based Startup Name Matcher exercise that:
 - **API Gateway:** REST API endpoint for POST /match
 - **Lambda:** Backend logic including Comprehend calls and DynamoDB queries
 - **DynamoDB:** Table storing existing startup names
-- **S3 (Optional):** Hosting for simple frontend HTML page
+- **S3:** Hosting for simple frontend HTML page
 
 ## Deployment Steps
 
@@ -30,7 +30,7 @@ cdk bootstrap aws://{ACCOUNT_NAME}/{REGION} --cloudformation-execution-policies 
 cdk deploy --all
 ```
 
-### 3. Upload Frontend (optional)
+### 3. Upload Frontend
 - Create an S3 bucket with static website hosting enabled
 - Upload `frontend/index.html` file
 - Access the website URL
